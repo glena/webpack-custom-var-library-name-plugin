@@ -1,6 +1,6 @@
 # CustomVarLibraryNamePlugin
 
-A WebPack ~hack~ plugin to allow to set a different module name to the var `libraryTarget` and the AMD/CommonJS when using `libraryTarget:'umd'`.
+A WebPack ~~hack~~ plugin to allow to set a different module name to the var `libraryTarget` and the AMD/CommonJS when using `libraryTarget:'umd'`.
 
 ## Usage
 
