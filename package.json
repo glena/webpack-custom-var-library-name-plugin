@@ -1,0 +1,18 @@
+{
+  "name": "webpack-custom-var-library-name-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glena/webpack-custom-var-library-name-plugin.git"
+  },
+  "author": "Germán Lena <german.lena@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glena/webpack-custom-var-library-name-plugin/issues"
+  },
+  "homepage": "https://github.com/glena/webpack-custom-var-library-name-plugin#readme"
+}
