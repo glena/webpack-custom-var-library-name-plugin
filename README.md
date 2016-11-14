@@ -22,7 +22,7 @@ var webpackConfig = {
         libraryTarget: 'umd',
         umdNamedDefine: true
     },
-
+    ...
     plugins: [
         ...
         new CustomVarLibraryNamePlugin({
