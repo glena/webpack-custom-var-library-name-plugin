@@ -13,6 +13,8 @@ $ npm i --save-dev webpack-custom-var-library-name-plugin
 ```js
 var CustomVarLibraryNamePlugin = require('webpack-custom-var-library-name-plugin');
 
+var webpackConfig = {
+    ...
     output: {
         path: path.join(__dirname, '../build'),
         filename: '[name].min.js',
@@ -28,5 +30,5 @@ var CustomVarLibraryNamePlugin = require('webpack-custom-var-library-name-plugin
         }),
         ...
     ],
-...
-
+    ...
+};
