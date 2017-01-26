@@ -17,8 +17,16 @@ CustomVarLibraryNamePlugin.prototype.apply = function(compiler) {
 
       if (_this.options.name[key].file) {
         prev.push({
+          replace: key +'.min.js.map',
+          with: _this.options.name[key].file +'.min.js.map'
+        })
+        prev.push({
           replace: key +'.js',
           with: _this.options.name[key].file +'.js'
+        })
+        prev.push({
+          replace: key +'.min.js',
+          with: _this.options.name[key].file +'.min.js'
         })
       }
 
